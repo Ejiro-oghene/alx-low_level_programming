@@ -44,7 +44,8 @@ void display_elf_header(const Elf64_Ehdr *header)
 
 /**
  * main - entry point of the program
- * @argc: numb of command-line argument.
+ * @argc: number of command-line argument.
+ *
  * @argv: array of command-line argument strings
  * Return: On success 0, on error 98.
  */
